@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+ 
+.tpwc-icon-facebook:before { content: '󌄣'; } /* '\cc123' */
+.tpwc-icon-facebook-squared:before { content: '󌄤'; } /* '\cc124' */
+.tpwc-icon-facebook-official:before { content: '󌄥'; } /* '\cc125' */
+.tpwc-icon-instagram:before { content: '󌄦'; } /* '\cc126' */
+.tpwc-icon-linkedin-squared:before { content: '󌄧'; } /* '\cc127' */
+.tpwc-icon-linkedin:before { content: '󌄨'; } /* '\cc128' */
+.tpwc-icon-twitter-squared:before { content: '󌄩'; } /* '\cc129' */
+.tpwc-icon-twitter:before { content: '󌄰'; } /* '\cc130' */
+.tpwc-icon-print:before { content: '󌄱'; } /* '\cc131' */
+.tpwc-icon-eye:before { content: '󌄲'; } /* '\cc132' */
+.tpwc-icon-balance-scale:before { content: '󌄳'; } /* '\cc133' */
+.tpwc-icon-share:before { content: '󌄴'; } /* '\cc134' */
+.tpwc-icon-share-squared:before { content: '󌄵'; } /* '\cc135' */
+.tpwc-icon-pinterest:before { content: '󌄶'; } /* '\cc136' */
+.tpwc-icon-pinterest-circled:before { content: '󌄷'; } /* '\cc137' */
+.tpwc-icon-pinterest-squared:before { content: '󌄸'; } /* '\cc138' */
+.tpwc-icon-mail:before { content: '󌄹'; } /* '\cc139' */
+.tpwc-icon-mail-alt:before { content: '󌅀'; } /* '\cc140' */
+.tpwc-icon-mail-squared:before { content: '󌅁'; } /* '\cc141' */
+.tpwc-icon-whatsapp:before { content: '󌅂'; } /* '\cc142' */

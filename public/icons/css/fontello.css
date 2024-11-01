@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+ @font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?58178416');
+  src: url('../font/fontello.eot?58178416#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?58178416') format('woff2'),
+       url('../font/fontello.woff?58178416') format('woff'),
+       url('../font/fontello.ttf?58178416') format('truetype'),
+       url('../font/fontello.svg?58178416#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?58178416#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="tpwc-icon-"]:before, [class*=" tpwc-icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.tpwc-icon-facebook:before { content: '󌄣'; } /* '\cc123' */
+.tpwc-icon-facebook-squared:before { content: '󌄤'; } /* '\cc124' */
+.tpwc-icon-facebook-official:before { content: '󌄥'; } /* '\cc125' */
+.tpwc-icon-instagram:before { content: '󌄦'; } /* '\cc126' */
+.tpwc-icon-linkedin-squared:before { content: '󌄧'; } /* '\cc127' */
+.tpwc-icon-linkedin:before { content: '󌄨'; } /* '\cc128' */
+.tpwc-icon-twitter-squared:before { content: '󌄩'; } /* '\cc129' */
+.tpwc-icon-twitter:before { content: '󌄰'; } /* '\cc130' */
+.tpwc-icon-print:before { content: '󌄱'; } /* '\cc131' */
+.tpwc-icon-eye:before { content: '󌄲'; } /* '\cc132' */
+.tpwc-icon-balance-scale:before { content: '󌄳'; } /* '\cc133' */
+.tpwc-icon-share:before { content: '󌄴'; } /* '\cc134' */
+.tpwc-icon-share-squared:before { content: '󌄵'; } /* '\cc135' */
+.tpwc-icon-pinterest:before { content: '󌄶'; } /* '\cc136' */
+.tpwc-icon-pinterest-circled:before { content: '󌄷'; } /* '\cc137' */
+.tpwc-icon-pinterest-squared:before { content: '󌄸'; } /* '\cc138' */
+.tpwc-icon-mail:before { content: '󌄹'; } /* '\cc139' */
+.tpwc-icon-mail-alt:before { content: '󌅀'; } /* '\cc140' */
+.tpwc-icon-mail-squared:before { content: '󌅁'; } /* '\cc141' */
+.tpwc-icon-whatsapp:before { content: '󌅂'; } /* '\cc142' */
